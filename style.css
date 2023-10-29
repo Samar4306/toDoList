@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #111211;
+    border-radius: 5px;
+  }
+  #taskInput{
+    color:red;
+  }
+  ::placeholder{
+    color:greenyellow;
+  }
+  #para1{
+    text-align:center;
+  }
+  #Task{
+    text-align:right;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
